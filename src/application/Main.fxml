@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <GridPane fx:id="myGridPane" gridLinesVisible="true" layoutX="136.0" layoutY="97.0" prefHeight="312.0" prefWidth="327.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="myButton2" mnemonicParsing="false" prefHeight="127.0" prefWidth="110.0" GridPane.columnIndex="1" />
+            <Button fx:id="myButton3" mnemonicParsing="false" prefHeight="138.0" prefWidth="153.0" GridPane.columnIndex="2" />
+            <Button fx:id="myButton4" mnemonicParsing="false" prefHeight="142.0" prefWidth="162.0" GridPane.rowIndex="1" />
+            <Button fx:id="myButton5" mnemonicParsing="false" prefHeight="160.0" prefWidth="189.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="myButton6" mnemonicParsing="false" prefHeight="194.0" prefWidth="224.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="myButton7" mnemonicParsing="false" prefHeight="149.0" prefWidth="177.0" GridPane.rowIndex="2" />
+            <Button fx:id="myButton8" mnemonicParsing="false" prefHeight="163.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="myButton9" mnemonicParsing="false" prefHeight="144.0" prefWidth="215.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="myButton1" mnemonicParsing="false" prefHeight="161.0" prefWidth="201.0" />
+         </children>
+      </GridPane>
+      <Label fx:id="myLabel" alignment="CENTER" layoutY="25.0" prefHeight="18.0" prefWidth="600.0" text="Jugador X empieze:">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="myButtonReset" layoutX="254.0" layoutY="453.0" mnemonicParsing="false" text="Volver a Jugar" />
+   </children>
+</AnchorPane>
